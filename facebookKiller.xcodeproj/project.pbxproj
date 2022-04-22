@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291E4D5427E0C10B00272F69 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D5327E0C10B00272F69 /* MessageModel.swift */; };
+		291E4D5627E0C79400272F69 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D5527E0C79400272F69 /* FriendsControllerHelper.swift */; };
+		291E4D7327E0CDC500272F69 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D6F27E0CDC500272F69 /* Message+CoreDataClass.swift */; };
+		291E4D7427E0CDC500272F69 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D7027E0CDC500272F69 /* Message+CoreDataProperties.swift */; };
+		291E4D7527E0CDC500272F69 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D7127E0CDC500272F69 /* Friend+CoreDataClass.swift */; };
+		291E4D7627E0CDC500272F69 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E4D7227E0CDC500272F69 /* Friend+CoreDataProperties.swift */; };
+		292BFDED27E12CF30052A56D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292BFDEC27E12CF30052A56D /* CustomTabBarController.swift */; };
+		2930F9FA27DFD7C50020D0FD /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930F9F927DFD7C50020D0FD /* MessageCell.swift */; };
 		29463C6B27DD2AF3002D3E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C6A27DD2AF3002D3E0B /* AppDelegate.swift */; };
 		29463C6D27DD2AF3002D3E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C6C27DD2AF3002D3E0B /* SceneDelegate.swift */; };
 		29463C6F27DD2AF3002D3E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C6E27DD2AF3002D3E0B /* ViewController.swift */; };
-		29463C7227DD2AF3002D3E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29463C7027DD2AF3002D3E0B /* Main.storyboard */; };
 		29463C7527DD2AF3002D3E0B /* facebookKiller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29463C7327DD2AF3002D3E0B /* facebookKiller.xcdatamodeld */; };
 		29463C7727DD2AF5002D3E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29463C7627DD2AF5002D3E0B /* Assets.xcassets */; };
 		29463C7A27DD2AF5002D3E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29463C7827DD2AF5002D3E0B /* LaunchScreen.storyboard */; };
 		29463C8527DD2AF5002D3E0B /* facebookKillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C8427DD2AF5002D3E0B /* facebookKillerTests.swift */; };
 		29463C8F27DD2AF5002D3E0B /* facebookKillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C8E27DD2AF5002D3E0B /* facebookKillerUITests.swift */; };
 		29463C9127DD2AF5002D3E0B /* facebookKillerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29463C9027DD2AF5002D3E0B /* facebookKillerUITestsLaunchTests.swift */; };
+		296D495B27E1020E00394FF2 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D495A27E1020E00394FF2 /* ChatLogController.swift */; };
+		296D495D27E1047500394FF2 /* ChatLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D495C27E1047500394FF2 /* ChatLogCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291E4D5327E0C10B00272F69 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		291E4D5527E0C79400272F69 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		291E4D6F27E0CDC500272F69 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		291E4D7027E0CDC500272F69 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		291E4D7127E0CDC500272F69 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		291E4D7227E0CDC500272F69 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		292BFDEC27E12CF30052A56D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2930F9F927DFD7C50020D0FD /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		29463C6727DD2AF3002D3E0B /* facebookKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29463C6A27DD2AF3002D3E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29463C6C27DD2AF3002D3E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29463C6E27DD2AF3002D3E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29463C7127DD2AF3002D3E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29463C7427DD2AF3002D3E0B /* facebookKiller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = facebookKiller.xcdatamodel; sourceTree = "<group>"; };
 		29463C7627DD2AF5002D3E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29463C7927DD2AF5002D3E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,8 @@
 		29463C8A27DD2AF5002D3E0B /* facebookKillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookKillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29463C8E27DD2AF5002D3E0B /* facebookKillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookKillerUITests.swift; sourceTree = "<group>"; };
 		29463C9027DD2AF5002D3E0B /* facebookKillerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookKillerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		296D495A27E1020E00394FF2 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		296D495C27E1047500394FF2 /* ChatLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291E4D5227E0C0E900272F69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				291E4D5327E0C10B00272F69 /* MessageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		292BFDEE27E12D360052A56D /* CoreData files */ = {
+			isa = PBXGroup;
+			children = (
+				291E4D6F27E0CDC500272F69 /* Message+CoreDataClass.swift */,
+				291E4D7027E0CDC500272F69 /* Message+CoreDataProperties.swift */,
+				291E4D7127E0CDC500272F69 /* Friend+CoreDataClass.swift */,
+				291E4D7227E0CDC500272F69 /* Friend+CoreDataProperties.swift */,
+			);
+			path = "CoreData files";
+			sourceTree = "<group>";
+		};
+		2930F9F827DFD7AE0020D0FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2930F9F927DFD7C50020D0FD /* MessageCell.swift */,
+				296D495C27E1047500394FF2 /* ChatLogCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		29463C5E27DD2AF3002D3E0B = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +149,13 @@
 			children = (
 				29463C6A27DD2AF3002D3E0B /* AppDelegate.swift */,
 				29463C6C27DD2AF3002D3E0B /* SceneDelegate.swift */,
+				292BFDEC27E12CF30052A56D /* CustomTabBarController.swift */,
 				29463C6E27DD2AF3002D3E0B /* ViewController.swift */,
-				29463C7027DD2AF3002D3E0B /* Main.storyboard */,
+				291E4D5527E0C79400272F69 /* FriendsControllerHelper.swift */,
+				296D495A27E1020E00394FF2 /* ChatLogController.swift */,
+				291E4D5227E0C0E900272F69 /* Models */,
+				2930F9F827DFD7AE0020D0FD /* Cells */,
+				292BFDEE27E12D360052A56D /* CoreData files */,
 				29463C7627DD2AF5002D3E0B /* Assets.xcassets */,
 				29463C7827DD2AF5002D3E0B /* LaunchScreen.storyboard */,
 				29463C7B27DD2AF5002D3E0B /* Info.plist */,
@@ -236,7 +287,6 @@
 			files = (
 				29463C7A27DD2AF5002D3E0B /* LaunchScreen.storyboard in Resources */,
 				29463C7727DD2AF5002D3E0B /* Assets.xcassets in Resources */,
-				29463C7227DD2AF3002D3E0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +311,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296D495B27E1020E00394FF2 /* ChatLogController.swift in Sources */,
 				29463C7527DD2AF3002D3E0B /* facebookKiller.xcdatamodeld in Sources */,
+				291E4D7527E0CDC500272F69 /* Friend+CoreDataClass.swift in Sources */,
+				291E4D7627E0CDC500272F69 /* Friend+CoreDataProperties.swift in Sources */,
+				291E4D5427E0C10B00272F69 /* MessageModel.swift in Sources */,
 				29463C6F27DD2AF3002D3E0B /* ViewController.swift in Sources */,
 				29463C6B27DD2AF3002D3E0B /* AppDelegate.swift in Sources */,
 				29463C6D27DD2AF3002D3E0B /* SceneDelegate.swift in Sources */,
+				292BFDED27E12CF30052A56D /* CustomTabBarController.swift in Sources */,
+				291E4D7427E0CDC500272F69 /* Message+CoreDataProperties.swift in Sources */,
+				2930F9FA27DFD7C50020D0FD /* MessageCell.swift in Sources */,
+				291E4D5627E0C79400272F69 /* FriendsControllerHelper.swift in Sources */,
+				291E4D7327E0CDC500272F69 /* Message+CoreDataClass.swift in Sources */,
+				296D495D27E1047500394FF2 /* ChatLogCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29463C7027DD2AF3002D3E0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29463C7127DD2AF3002D3E0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29463C7827DD2AF5002D3E0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +500,6 @@
 				INFOPLIST_FILE = facebookKiller/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +527,6 @@
 				INFOPLIST_FILE = facebookKiller/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
